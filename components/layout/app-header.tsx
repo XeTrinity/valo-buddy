@@ -28,6 +28,11 @@ export function AppHeader() {
               </NavigationMenuItem>
               <NavigationMenuItem>
                 <NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
+                  <Link href="/explorer">Explorer</Link>
+                </NavigationMenuLink>
+              </NavigationMenuItem>
+              <NavigationMenuItem>
+                <NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
                   <Link href="/shop">Shop</Link>
                 </NavigationMenuLink>
               </NavigationMenuItem>

@@ -1,12 +1,5 @@
+import { redirect } from "next/navigation";
 
-
-
-function HomePage() {
-    return (
-        <>
-        
-        </>
-    )
+export default function Page() {
+  redirect("/home");
 }
-
-export default HomePage;
